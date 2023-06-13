@@ -1,0 +1,67 @@
+.mainright {
+  justify-content: left;
+}
+.educationmain {
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  width: 90%;
+  background-color: #323647;
+  box-shadow: 0px 10px 66px 1px rgba(0, 0, 0, 0.7);
+}
+.schools {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+}
+.schoolname {
+  font-size: 18px;
+  color: #ffffff;
+}
+.schoolyear {
+  margin-top: 5px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.schoolright {
+  display: flex;
+  flex-direction: column;
+  color: #a5a5a5;
+  padding: 10px 10px 0 10px;
+}
+.line1 {
+  width: 80%;
+  height: 1px;
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+.schoolleft {
+  width: 70px;
+  height: 100%;
+}
+.schoolimage {
+  width: 50px;
+  overflow: hidden;
+  height: 50px;
+  margin: 15px 10px 0 10px;
+}
+.schoolimage img {
+  width: 50px;
+  height: 50px;
+}
+@media screen and (min-width: 800px) {
+  .educationmain {
+    border-radius: 35px;
+  }
+  .schoolleft {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 799px) {
+  .schoolname {
+    font-size: 14px;
+  }
+  .schoolyear {
+    font-size: 14px;
+  }
+}
