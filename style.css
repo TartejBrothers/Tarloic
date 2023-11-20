@@ -19,7 +19,12 @@ html {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#881313",endColorstr="#262b49",GradientType=1);
 }
-
+* {
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
 body {
   background: rgb(136, 19, 19);
   background: -moz-linear-gradient(
@@ -187,7 +192,7 @@ a:link {
 
 .sidebar {
   overflow: scroll;
-  display: block;
+  display: inline-block;
   background: linear-gradient(166.52deg, #000000 37.55%, #262b49 100%);
   height: calc(100% - 70px);
   position: absolute;
@@ -392,6 +397,9 @@ button {
 @media screen and (max-width: 800px) {
   .rightbox h5 {
     font-size: 20px;
+  }
+  .asmall {
+    font-size: 12px;
   }
   .mainright {
     width: 100%;

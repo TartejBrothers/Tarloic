@@ -189,9 +189,8 @@ li {
 .aboutbottom2leftbody ul li {
   display: flex;
   flex-direction: row;
-
   justify-content: end;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 5px auto;
 }
 
 ul {
