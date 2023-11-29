@@ -160,7 +160,7 @@ a {
   color: white;
 }
 .aboutbottom2rightbody ul li {
-  font-size: 20px;
+  font-size: 18px;
 }
 .aboutbottomleftbody ul li a {
   text-decoration: underline;
@@ -271,6 +271,9 @@ ul {
   }
   .abouttopleftmain h4 {
     margin: 0px 0 10px 16px;
+  }
+  .aboutbottom2rightbody ul li {
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 951px) {
